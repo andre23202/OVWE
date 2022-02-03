@@ -4,6 +4,10 @@
 /blocks/**/*
 !/blocks/default_index.js
 
+# website
+/website/pages/**/*
+/website/public/locales/**/*
+
 # dependencies
 /node_modules
 /.pnp

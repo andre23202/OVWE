@@ -1,0 +1,43 @@
+{
+  "config": {
+    "menus": [
+      {
+        "id": "main",
+        "items": [
+          {
+            "name": { "en": "Home" },
+            "path": "/",
+            "slug": "home"
+          }
+        ]
+      }
+    ]
+  },
+  "pages": [
+    {
+      "config": {
+        "path": "index"
+      },
+      "header": {
+        "title": "website.title"
+      },
+      "body" : [
+        { "type": "hero1", "data": { "title": { "fr": "Test", "en": "Welcome" }, "menu": "main" } },
+        { "type": "content1", "data": { "text": { "fr": "bbbbb" } } }
+      ],
+      "footer" : ""
+    }
+  ],
+  "locales": {
+    "fr": {
+      "website": {
+        "title": "Titre du site"
+      }
+    },
+    "en": {
+      "website": {
+        "title": "Website title"
+      }
+    }
+  }
+}

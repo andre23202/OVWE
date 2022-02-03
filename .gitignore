@@ -5,6 +5,7 @@
 !/blocks/default_index.js
 
 # website
+database.json
 /website/pages/**/*
 /website/public/locales/**/*
 

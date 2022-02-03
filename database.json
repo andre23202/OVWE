@@ -1,0 +1,27 @@
+{
+  "pages": [
+    {
+      "config": { "path": "index" },
+      "header": {
+        "title": "website.title"
+      },
+      "body" : [
+        { "type": "hero1", "data": { "title": "test" } },
+        { "type": "content1", "data": { "text": "bbbbb" } }
+      ],
+      "footer" : ""
+    }
+  ],
+  "locales": {
+    "fr": {
+      "website": {
+        "title": "Titre du site"
+      }
+    },
+    "en": {
+      "website": {
+        "title": "Website title"
+      }
+    }
+  }
+}
